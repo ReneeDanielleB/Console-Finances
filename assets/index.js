@@ -86,3 +86,25 @@ var finances = [
   ['Jan-2017', 138230],
   ['Feb-2017', 671099],
 ];
+
+//Initial console log to display header
+console.log("Financial Analysis--------------------------");
+
+const dates = [];
+const finances = [];
+
+//Total Months
+
+//Net Total Amount
+
+//Average Changes
+
+//Greatest Profit and Loss
+let greatestProfit = ;
+let greatestLoss = ;
+
+let dateOfgreatestProfit =;
+let dateOfgreatestLoss =;
+
+console.log();
+console.log();
