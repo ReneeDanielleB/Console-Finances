@@ -104,21 +104,29 @@ console.log("Total Number of Months :" + totalMonths);
 //Net Total Amount of Profits/Losses
 let netTotal = 0
 
-for (let i = 0; i < finances.length; i++) {netTotal += finances[i][1];}
+for (let i = 0; i < finances.length; i++) {
+  netTotal += finances[i][1];
+}
 
 let netAmount = netTotal;
 console.log("Total: $" + netAmount);
 
 //Average of Changes in Profits/Losses
-/*let average = 0;
-let changes = [];
+let averageAmount = 0;
+let totalAverageAmount = 0;
 
-for()
+for (let i = 0; i < finances.length - 1; i++) {
+  averageAmount.push(finances[i+1][1] - finances[i][1]); 
+  totalAverageAmount += averageAmount[i]
+}
+//Calculation of average
+averageAverageAmount = totalAverageAmount / averageAmount.length;
 
-console.log("Average Change:" + change)
+let change = averageAmount;
+console.log("Average Change: $" + change);
 
 //Greatest increase in Profits/Losses (date & amount)
-let greatestProfit = 0;
+/*let greatestProfit = 0;
 let greatestLoss = 0;
 
 let dateOfgreatestProfit =
