@@ -88,23 +88,38 @@ var finances = [
 ];
 
 //Initial console log to display header
-console.log("Financial Analysis--------------------------");
+console.log("Financial Analysis\n\n\n-----------------------------------------------");
 
-const dates = [];
-const finances = [];
+let dates = [];
+let financesData = [];
 
 //Total Months
+let totalOfMonths = 0;
 
-//Net Total Amount
+for (i = 0; i < finances.length; i++) {totalOfMonths++};
 
-//Average Changes
+let totalMonths = finances.length;
+console.log(`Total Number of Months :`+ totalMonths);
 
-//Greatest Profit and Loss
-let greatestProfit = ;
-let greatestLoss = ;
+//Net Total Amount of Profits/Losses
+/*let netTotal = 0
+console.log("");
 
-let dateOfgreatestProfit =;
-let dateOfgreatestLoss =;
+//Average of Changes in Profits/Losses
+let average = 0;
+let changes = [];//
+
+for()
+
+//Greatest increase in Profits/Losses (date & amount)
+let greatestProfit = 0;
+let greatestLoss = 0;
+
+let dateOfgreatestProfit =
+let dateOfgreatestLoss =
 
 console.log();
-console.log();
+console.log(); 
+
+//Greatest decrease in Pofits/Losses (date & amount)
+let g*/
